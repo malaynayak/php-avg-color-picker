@@ -1,8 +1,7 @@
 {
-  "name": "tooleks/php-avg-color-picker",
+  "name": "malaynayak/php-avg-color-picker",
   "type": "library",
   "description": "The PHP Average Color Picker Library",
-  "version": "1.1.2",
   "keywords": [
     "php",
     "average",
@@ -23,7 +22,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": "^7.0",
+    "php": ">=7.0 || >=8.0",
     "ext-mbstring": "*",
     "ext-gd": "*"
   },
@@ -39,5 +38,8 @@
     "classmap": [
       "tests"
     ]
+  },
+  "replace": {
+    "tooleks/php-avg-color-picker": "1.1.2"
   }
 }
